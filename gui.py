@@ -1,7 +1,7 @@
 import sys
 import sip #Install sip
 from PyQt5 import QtCore, QtWidgets
-from PyQt5.QtWidgets import QMainWindow, QLabel, QGridLayout, QWidget, QApplication, QVBoxLayout, QPushButton, QFileDialog, QComboBox
+from PyQt5.QtWidgets import QMainWindow, QLabel, QGridLayout, QWidget, QApplication, QVBoxLayout, QPushButton, QFileDialog, QComboBox, QHBoxLayout
 from PyQt5.QtCore import QSize
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtGui import QPainter, QColor, QPen
@@ -81,7 +81,16 @@ class HelloWindow(QMainWindow):
 class Second (QWidget):
     def __init__(self):
         super ().__init__ ()
+        self.initUI()
 
+    def initUI(self):
+        label = QLabel()
+        label.setText("Hello")
+        label.adjustSize()
+        hbox = QHBoxLayout()
+        hbox.addWidget(label)
+        self.show()
+        
 
 
 
