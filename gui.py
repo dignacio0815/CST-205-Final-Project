@@ -45,9 +45,9 @@ class HelloWindow(QMainWindow):
         self.translatebtn = QPushButton("Translate", self)
         self.translatebtn.clicked.connect(self.on_click)
         self.comboBox = QComboBox()
-
+        
         for lang in range(len(results)):
-            self.comboBox.addItem(results[lang]['name'])
+            self.comboBox.addItem(results[lang]['name'] + " " + results[lang]['language'])
 
         lay.addWidget(self.translatebtn)
         lay.addWidget(self.comboBox)
@@ -58,23 +58,31 @@ class HelloWindow(QMainWindow):
         global getWords
         fname, _ = QFileDialog.getOpenFileName(self.uploadLabel, 'Open File', '/usr/tmp', "Images (*.jpg *png)")
         getWords = func.getText(fname) #extracted text from image is here
+        print(getWords)
         self.uploadLabel.setPixmap(QPixmap(fname))
 
     def on_click(self):
+        global translated_text
         current_value = self.comboBox.currentText()  
         print(current_value)
         print(getWords)
-        #textFrom = onClick(self)
-        #result = translate_client.detect_language(textFrom)
+        result = translate_client.detect_language(getWords)
+        iso_target = current_value.split(" ")[1]
+        translated_text = func.translate(getWords, iso_target)
+        print(translated_text)
         #print(result['language'])
         #print(results[current_value])
         #print(func.translate(text, results[current_value]))
+        self.label = QLabel()
+        self.label.setText("Your translation is: " + translated_text)
         self.dialog.show()
 
 
-class Second ( QWidget ):
+class Second (QWidget):
     def __init__(self):
         super ().__init__ ()
+
+
 
 
 if __name__ == "__main__":
