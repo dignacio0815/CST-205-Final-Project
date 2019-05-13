@@ -38,8 +38,7 @@ set GOOGLE_APPLICATION_CREDENTIALS=[PATH]
 ```bash
 python main.py
 ```
-![Alt Text]{https://asciinema.org/a/Icy7e5UD0NJ17dXGdsz7xDhjq}
-
+[![asciicast](https://asciinema.org/a/Aeyl4M06J6EalMUKhJHokVmuF)](https://asciinema.org/a/Aeyl4M06J6EalMUKhJHokVmuF)
 # Usage
 ![Alt Text](http://g.recordit.co/rqF2EHBTAU.gif)
 
