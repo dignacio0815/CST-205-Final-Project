@@ -8,4 +8,6 @@ The main idea of the project is to be able to upload an image with unknown text 
 pip install -r requirements.txt
 ```
 
+## Usage
+![Alt Text](http://g.recordit.co/rqF2EHBTAU.gif)
 
