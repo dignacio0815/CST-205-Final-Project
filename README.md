@@ -34,11 +34,13 @@ Windows Powershell:
 $env:GOOGLE_APPLICATION_CREDENTIALS="[PATH TO YOUR API KEY.json]"
 set GOOGLE_APPLICATION_CREDENTIALS=[PATH]
 ```
-3. Run the program! 
+3. Run the program
 ```bash
 python main.py
 ```
-<a href="https://asciinema.org/a/Aeyl4M06J6EalMUKhJHokVmuF"></a>
+[![asciicast](https://asciinema.org/a/14.png)](https://asciinema.org/a/Aeyl4M06J6EalMUKhJHokVmuF)
+
+!<a href="https://asciinema.org/a/Aeyl4M06J6EalMUKhJHokVmuF"></a>
 
 # Running Tests
 Use images in __Images__ folder provided in repo and upload them to GUI and translate
