@@ -12,6 +12,6 @@ pip install -r requirements.txt
 ![Alt Text](http://g.recordit.co/rqF2EHBTAU.gif)
 
 ## Support 
-Helpful Links:
+Helpful Links: <br />
 [Google Translator API Documentation](https://cloud.google.com/translate/docs/reference/libraries)
 
