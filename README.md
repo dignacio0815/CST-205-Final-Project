@@ -1,19 +1,20 @@
-# CST-205-Final-Project Image to Text Translator
+# Image to Text Translator
 
-## Description 
+# Description 
 The main idea of the project is to be able to upload an image with unknown text and translate it to a desired one. The user will be able to upload an image (with text) from any location in their machine and have it translated to any one of over 104 languages supported by Google's Translator API. 
 
-## Installation
+# Installation
+To run the application, please install the following dependencies listed below: <br />
 ```bash
 brew update
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## Usage
+# Usage
 ![Alt Text](http://g.recordit.co/rqF2EHBTAU.gif)
 
-## Support 
+# Support 
 Helpful Links: <br />
 [Google Translator API Documentation](https://cloud.google.com/translate/docs/reference/libraries)
 
