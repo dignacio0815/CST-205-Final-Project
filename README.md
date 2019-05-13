@@ -38,10 +38,6 @@ set GOOGLE_APPLICATION_CREDENTIALS=[PATH]
 ```bash
 python main.py
 ```
-[![asciicast](https://asciinema.org/a/14.png)](https://asciinema.org/a/Aeyl4M06J6EalMUKhJHokVmuF?autoplay=1)
-
-!<a href="https://asciinema.org/a/Aeyl4M06J6EalMUKhJHokVmuF"></a>
-
 # Running Tests
 Use images in __Images__ folder provided in repo and upload them to GUI and translate
 
@@ -57,4 +53,3 @@ Use images in __Images__ folder provided in repo and upload them to GUI and tran
 # Support 
 Helpful Links: <br />
 [Google Translator API Documentation](https://cloud.google.com/translate/docs/reference/libraries)
-
