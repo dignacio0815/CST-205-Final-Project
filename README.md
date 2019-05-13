@@ -5,6 +5,8 @@ The main idea of the project is to be able to upload an image with unknown text 
 
 ## Installation
 ```bash
+brew update
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
