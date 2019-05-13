@@ -35,6 +35,10 @@ $env:GOOGLE_APPLICATION_CREDENTIALS="[PATH TO YOUR API KEY.json]"
 set GOOGLE_APPLICATION_CREDENTIALS=[PATH]
 ```
 3. Run the program! 
+```bash
+python main.py
+```
+![Alt Text]{https://asciinema.org/a/Icy7e5UD0NJ17dXGdsz7xDhjq}
 
 # Usage
 ![Alt Text](http://g.recordit.co/rqF2EHBTAU.gif)
