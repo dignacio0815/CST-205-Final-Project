@@ -19,8 +19,7 @@ Getting the application running:
 [Google Translator API Documentation](https://cloud.google.com/translate/docs/reference/libraries)
 ```
 2. Set up your enviornment variables by running: 
-<br /> 
-MacOS:
+<br /> MacOS:
 ```bash
 export GOOGLE_APPLICATION_CREDENTIALS="[PATH TO YOUR API KEY.json]"
 ```
