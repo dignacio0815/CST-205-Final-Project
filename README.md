@@ -38,7 +38,7 @@ set GOOGLE_APPLICATION_CREDENTIALS=[PATH]
 ```bash
 python main.py
 ```
-<a href="https://asciinema.org/a/Aeyl4M06J6EalMUKhJHokVmuF/a/14?autoplay=1"><img src="" width="836"/></a>
+<a href="https://asciinema.org/a/Aeyl4M06J6EalMUKhJHokVmuF?autoplay=1"><img src="" width="836"/></a>
 # Usage
 ![Alt Text](http://g.recordit.co/rqF2EHBTAU.gif)
 
