@@ -34,8 +34,8 @@ class HelloWindow(QMainWindow):
         self.button = QPushButton("Upload Image", self)#Create's the button to upload the image.
         self.uploadLabel = QLabel(self) #Create's the label for the button
         self.button.clicked.connect(self.onClick)
-        lay.addWidget(self.button)
-        lay.addWidget(self.uploadLabel)
+        lay.addWidget(self.button) #Adds the widget so it's visible.
+        lay.addWidget(self.uploadLabel) #Adds the widget so it's visible.
         self.translatebtn = QPushButton("Translate", self)
         self.translatebtn.clicked.connect(self.on_click)# Connects the button to the onClick function 
         self.comboBox = QComboBox()
