@@ -39,6 +39,10 @@ set GOOGLE_APPLICATION_CREDENTIALS=[PATH]
 python main.py
 ```
 <a href="https://asciinema.org/a/Aeyl4M06J6EalMUKhJHokVmuF"></a>
+
+# Running Tests
+Use images in __Images__ folder provided in repo and upload them to GUI and translate
+
 # Usage
 ![Alt Text](http://g.recordit.co/rqF2EHBTAU.gif)
 
