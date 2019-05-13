@@ -6,8 +6,10 @@ The main idea of the project is to be able to upload an image with unknown text 
 # Prerequisites
 Clone the repository: 
 ```bash
-git clone 
+git clone https://github.com/dignacio0815/CST-205-Final-Project.git
+cd CST-205-Final-Project
 ```
+
 Please install the following dependencies listed below in your terminal: <br />
 ```bash
 brew update
