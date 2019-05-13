@@ -48,7 +48,7 @@ Use images in __Images__ folder provided in repo and upload them to GUI and tran
 * Denize Ignacio
 * Mytzy Escalante
 * Ankit Gulekar
-* Roober Cruz
+* [https://github.com/Tezaen](Roober Cruz)
 
 # Support 
 Helpful Links: <br />
