@@ -31,13 +31,13 @@ class HelloWindow(QMainWindow):
         pixmap = QPixmap('welcome.jpg')
         label.setPixmap(pixmap)
         self.resize(pixmap.width(), pixmap.height())
-        self.button = QPushButton("Upload Image", self)
-        self.uploadLabel = QLabel(self)
+        self.button = QPushButton("Upload Image", self)#Create's the button to upload the image.
+        self.uploadLabel = QLabel(self) #Create's the label for the button
         self.button.clicked.connect(self.onClick)
         lay.addWidget(self.button)
         lay.addWidget(self.uploadLabel)
         self.translatebtn = QPushButton("Translate", self)
-        self.translatebtn.clicked.connect(self.on_click)
+        self.translatebtn.clicked.connect(self.on_click)# Connects the button to the onClick function 
         self.comboBox = QComboBox()
         
         for lang in range(len(results)):
@@ -51,8 +51,10 @@ class HelloWindow(QMainWindow):
     def onClick(self):
         global getWords
         fname, _ = QFileDialog.getOpenFileName(self.uploadLabel, 'Open File', '/usr/tmp', "Images (*.jpg *png)")
+        #fname uses the QFileDialog from QWidgets and when the button is clicked, it opens the file picker window or the file window and only shows
+        # image files like jpg and png. It opens on your last opened directory when you opened the file explorer.
         getWords = func.getText(fname) #extracted text from image is here
-        self.uploadLabel.setPixmap(QPixmap(fname))
+        self.uploadLabel.setPixmap(QPixmap(fname)) #Displays the image on the first window
 
     def on_click(self):
         global translated_text
