@@ -42,6 +42,12 @@ python main.py
 # Usage
 ![Alt Text](http://g.recordit.co/rqF2EHBTAU.gif)
 
+# Authors
+* Denize Ignacio
+* Mytzy Escalante
+* Ankit Gulekar
+* Roober Cruz
+
 # Support 
 Helpful Links: <br />
 [Google Translator API Documentation](https://cloud.google.com/translate/docs/reference/libraries)
